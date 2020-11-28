@@ -13,7 +13,9 @@ class Cliter < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "go", "build", "./cmd", *std_go_args
+    cd "cmd" do
+      system "go", "build", *std_go_args
+    end
   end
 
   test do
