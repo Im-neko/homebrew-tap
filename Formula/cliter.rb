@@ -4,9 +4,9 @@
 class Cliter < Formula
   desc "Simple Tweet client"
   homepage "https://www.im-neko.net"
-  url "https://github.com/Im-neko/cliter/archive/release.tar.gz"
-  version "1.0.0"
-  sha256 "2527e4aa738fb90571fb2eae0402984f4ef3581eaa9ff85df4b7a95cec110fb6"
+  url "https://github.com/Im-neko/cliter/archive/v1.0.1.tar.gz"
+  version "1.0.1"
+  sha256 "85b34d5c3496e2dca650ac11746d6d115e7a3b5bcf0efec58135cf4e4d28eab2"
   license "MIT"
 
   depends_on "go" => :build
